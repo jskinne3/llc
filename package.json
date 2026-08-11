@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,6 @@
   },
   "homepage": "https://github.com/jskinne3/llc#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.1"
+    "@11ty/eleventy": "^3.1.6"
   }
 }
